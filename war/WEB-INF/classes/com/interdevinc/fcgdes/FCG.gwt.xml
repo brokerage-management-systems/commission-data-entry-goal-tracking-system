@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module rename-to='fcg'>
+
+  	<!-- Inherit the core Web Toolkit stuff.                        -->
+  	<inherits name='com.google.gwt.user.User'/>
+
+  	<!-- Inherit the default GWT style sheet.  You can change       -->
+  	<!-- the theme of your GWT application by uncommenting          -->
+  	<!-- any one of the following lines.                            -->
+  	<inherits name='com.google.gwt.user.theme.standard.Standard'/>
+  	<!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  	<!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+	<!-- Other module Inherits  -->
+	<inherits name='com.google.gwt.visualization.Visualization'/>
+	<extend-property name="locale" values="en_US" />
+	
+	<!-- Support Safari, & Chrome, FireFox, IE8 -->
+	<set-property name="user.agent" value="safari,gecko1_8,ie8" /> 
+	
+  	<!-- Servlets -->
+  	<servlet class="com.interdevinc.fcgdes.server.process.user.AuthenticateUserImpl" path="/authenticateUser" />
+    <!-- <servlet class="com.interdevinc.fcgdes.server.process.user.LogoutServlet" path="/logout" /> -->
+  	<servlet class="com.interdevinc.fcgdes.server.process.broker.BrokerManagerServiceImpl" path="/brokerManager" />
+  	<servlet class="com.interdevinc.fcgdes.server.process.goal.GoalManagerServiceImpl" path="/goalManager" />
+  	<servlet class="com.interdevinc.fcgdes.server.process.gross.GrossManagerServiceImpl" path="/grossManager" />
+  	<servlet class="com.interdevinc.fcgdes.server.process.report.ReportManagerServiceImpl" path="/reportManager" />
+  	
+  	<!-- Specify the app entry point class.                         -->
+  	<entry-point class='com.interdevinc.fcgdes.client.FCG'/>
+
+  	<!-- Specify the paths for translatable code                    -->
+  	<source path='client'/>
+  	<source path='shared'/>
+
+</module>

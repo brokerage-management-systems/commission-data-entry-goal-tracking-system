@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+	<!-- Servlets -->
+
+	<servlet>
+		<servlet-name>authenticateUserImpl</servlet-name>
+		<servlet-class>com.interdevinc.fcgdes.server.process.user.AuthenticateUserImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>authenticateUserImpl</servlet-name>
+		<url-pattern>/fcg/authenticateUser</url-pattern>
+	</servlet-mapping>
+
+	<!-- <servlet>
+		<servlet-name>logoutServlet</servlet-name>
+		<servlet-class>com.interdevinc.fcgdes.server.process.user.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logoutServlet</servlet-name>
+		<url-pattern>/fcg/logout</url-pattern>
+	</servlet-mapping> -->
+
+	<servlet>
+		<servlet-name>brokerManagerServiceImpl</servlet-name>
+		<servlet-class>com.interdevinc.fcgdes.server.process.broker.BrokerManagerServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>brokerManagerServiceImpl</servlet-name>
+		<url-pattern>/fcg/brokerManager</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>goalManagerServiceImpl</servlet-name>
+		<servlet-class>com.interdevinc.fcgdes.server.process.goal.GoalManagerServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>goalManagerServiceImpl</servlet-name>
+		<url-pattern>/fcg/goalManager</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>grossManagerServiceImpl</servlet-name>
+		<servlet-class>com.interdevinc.fcgdes.server.process.gross.GrossManagerServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>grossManagerServiceImpl</servlet-name>
+		<url-pattern>/fcg/grossManager</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>reportManagerServiceImpl</servlet-name>
+		<servlet-class>com.interdevinc.fcgdes.server.process.report.ReportManagerServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reportManagerServiceImpl</servlet-name>
+		<url-pattern>/fcg/reportManager</url-pattern>
+	</servlet-mapping>
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>FCG.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>

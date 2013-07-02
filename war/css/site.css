@@ -1,0 +1,161 @@
+body  {
+  background: #F4F4F4;
+  font-family: "Arial Narrow", "Myriad Pro";
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #869843; 
+  font-size:24px; 
+  font-family: "Arial Narrow", "Myriad Pro"; 
+  font-weight: normal;
+  margin: 0px;
+}
+h2 {
+  color: #3b7687;
+  font-size: 15px; 
+  margin: 20px 0 5px 0;
+}
+h4,
+h5 {
+  margin-top: 3px;
+  margin-bottom: 2px;	
+}
+#container { 
+  background: #FFF;
+  margin: 0 auto;
+  width: 900px;
+}
+#header { 
+  padding-top: 25px;
+}
+#header img.logo {
+  border: 0;
+  height: 15%; 
+  width: 50%;
+}
+#menu {
+  background-color: #92c1f0;
+  border-radius: 5px;
+  height: 30px;
+  padding: 2px 40px;
+  position: relative;
+}
+#menu span {
+  color: #444;
+  font-family: "Arial Narrow", "Myriad Pro";
+  font-size: 12px;
+  position: absolute;
+  top: 30%;
+}
+#menu a {
+  color: #C3D9FF;
+  font-family: "Arial Narrow", "Myriad Pro";
+  font-size: 12px;
+  text-decoration: none;
+}
+#menu a:hover {
+  color: #ecf2f3;
+}
+#main {
+  color: #444;
+  font-family: "Georgia";
+  font-size: 13px; 
+  line-height: 18px;
+  margin: 0 0 0 180px;
+  padding: 35px 40px 30px 0;
+  text-align: justify;
+} 
+#main a {
+  color: #3b7687; 
+  text-decoration: none;
+}
+#main a:hover {
+  color: #444;
+}
+#main-container {
+  margin: 5px 0;
+  width: 900px;
+}
+/*  FOOTER  */
+#footer {
+  background: #D6D6D6;
+  border-radius: 5px;
+  color: #444;
+  font-family: "Arial Narrow", "Myriad Pro";
+  font-size: 12px;
+  padding: 2px 40px;
+  text-align: right;
+}
+#footer a {
+  color: #262626;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #666;
+}
+#version {
+  cursor: pointer;
+}
+#bug_submission {
+  cursor: pointer;
+}
+#logout {
+    cursor: pointer;
+}
+.footer_logo .idev_logo {
+  height: 30px;
+  vertical-align: middle;
+  width: 60px;
+}
+/*  TODO: figure out where these styles are used    */
+.alternate-row { background: #D3D3D3; }
+.black-row {
+  background: #000;
+  color: #FFF;
+}
+.center,
+.form-button-row {
+  text-align: center;
+}
+.column-title-row { text-align: center; }
+.confirmation-text { margin: 5px; }
+.error-label {
+  color: #F00;
+  font-size: 10px;
+  text-align: center;
+}
+.fcg-view { width: 100%; }
+.gross-table {
+  border: 1px solid black;
+  width: 300px;
+}
+.input-cell { }
+.label-cell { width: 110px; }
+.login-form-container {
+  margin: 0 auto;
+  width: 150px;
+}
+.number-align-right { text-align: right; }
+.page-break-column-title-row { text-align: center; }
+.separator {
+  color: #FFF;
+  font-size: 11px;
+}
+.shaded { background: #CCC; }
+.table-header {
+  font-weight: bold;
+  text-align: center;
+}
+.table-text {
+  border-color: #000;
+  border-style: solid;
+  border-width: 1px 0 1px 0;
+  font-size: 11px;
+}
+/*  GWT Components  */
+.gwt-TabPanel > tbody > tr,
+.gwt-TabPanel > tbody > tr > td {
+  padding: 0;
+}

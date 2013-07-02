@@ -1,0 +1,2 @@
+serviceClass: com.interdevinc.fcgdes.client.process.report.ReportManagerService
+path: 0F3F99D0D845FA30F9E3EE267E90AA4B.gwt.rpc

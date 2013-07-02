@@ -1,0 +1,2 @@
+serviceClass: com.interdevinc.fcgdes.client.process.user.AuthenticateUser
+path: 84C57165E517CB39D1040820D44AF551.gwt.rpc

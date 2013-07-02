@@ -1,0 +1,2 @@
+serviceClass: com.interdevinc.fcgdes.client.process.goal.GoalManagerService
+path: FB42D653B930A5BAECB8A989EAFA993F.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: com.interdevinc.fcgdes.client.process.broker.BrokerManagerService
+path: B21231F60A6AC152AFF5D3F145171AA0.gwt.rpc

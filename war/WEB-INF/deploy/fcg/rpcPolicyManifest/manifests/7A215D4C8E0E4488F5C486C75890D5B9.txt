@@ -1,0 +1,2 @@
+serviceClass: com.interdevinc.fcgdes.client.process.gross.GrossManagerService
+path: 02C30BA3C019B7EBB4290620AEF650D6.gwt.rpc
